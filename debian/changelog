@@ -1,16 +1,26 @@
-qtimageformats-opensource-src (5.9.3+ubports1) xenial; urgency=medium
+qtimageformats-opensource-src (5.9.5-0ubports1) xenial; urgency=medium
 
-  * Import to UBports
+  * New upstream release.
+  * Bump qtbase5-dev build-dependency to 5.9.5.
+  * Switch Vcs-[Git Browser] to salsa.debian.org.
 
- -- Dan Chapman<dan@ubports.com>  Tue, 13 Mar 2018 05:51:45 +0000
+ -- Dmitry Shachnev <mitya57@ubuntu.com>  Sat, 14 Apr 2018 12:24:47 +0300
 
-qtimageformats-opensource-src (5.9.3-1ubuntu1) bionic; urgency=medium
+qtimageformats-opensource-src (5.9.4-0ubuntu1) bionic; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * New upstream release.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 25 Feb 2018 00:29:27 -0600
+
+qtimageformats-opensource-src (5.9.2-2) unstable; urgency=medium
+
   * Let dh_auto_configure pass cross tools to qmake (Closes: #881691).
     Thanks Helmut Grohne for the patch.
 
-  [ Simon Quigley ]
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 03 Dec 2017 13:24:12 -0300
+
+qtimageformats-opensource-src (5.9.3-1ubuntu1) bionic; urgency=medium
+
   * New upstream release.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 30 Nov 2017 22:29:04 -0600
